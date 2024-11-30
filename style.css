@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Montserrat Alternates';
-    background: url(./images/bg-3.jpg);
+    background: url(./images/answer.jpg);
     display: flex;
     justify-content: center;
 }
@@ -134,6 +134,7 @@ body {
     outline: none;
     text-align: center;
     user-select: none;
+    background-color: #66afe9;
 }
 
 #button-container #submit {
@@ -153,6 +154,7 @@ button {
     font-weight: bold;
     border-radius: 30px;
     border: none;
+    background-color: #66afe9;
 }
 
 
