@@ -44,9 +44,9 @@ const initialize = (path) => {
         });
     } else if (path == "terms.html") {
         document.getElementById("start").addEventListener("click", () => {
-            Loadpage("Quiz.html");
+            Loadpage("quiz.html");
         });
-    } else if (path == "Quiz.html") {
+    } else if (path == "quiz.html") {
         //showtimer(); // Start the timer
         showquestion(); // Display the first question
 
@@ -87,15 +87,15 @@ const initialize = (path) => {
             }
 
             userselectedanswer[currentindex] = selectedAnswer.value;
-            Loadpage("Result.html");
+            Loadpage("result.html");
         });
-    } else if (path == "Result.html") {
+    } else if (path == "result.html") {
         document.getElementById("mark").textContent = `Your score is ${mark}/${ttlquestioncount}`;
 
         document.getElementById("viewanswer").addEventListener("click", () => {
-            Loadpage("Answer.html");
+            Loadpage("answer.html");
         });
-    } else if (path == "Answer.html") {
+    } else if (path == "answer.html") {
         showanswer();
     }
 };
