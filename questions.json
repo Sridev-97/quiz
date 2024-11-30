@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "answers": [
+            "Hyperlinks and Text Markup Language",
+            "Hyper Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyper Tool Markup Language"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of the `<head>` tag in HTML?",
+        "answers": [
+            "To define the header of a webpage",
+            "To contain metadata and links to external files",
+            "To hold the body content of a webpage",
+            "To structure data in tables"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML tag is used to display a picture?",
+        "answers": [
+            "&lt;image&gt;",
+            "&lt;img&gt;",
+            "&lt;pic&gt;",
+            "&lt;src&gt;"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does CSS stand for?",
+        "answers": [
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "How do you apply a class in HTML?",
+        "answers": [
+            "class='classname'",
+            "id='classname'",
+            "style='classname'",
+            "type='classname'"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which property is used in CSS to change the text color?",
+        "answers": [
+            "font-color",
+            "text-color",
+            "color",
+            "style-color"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the correct way to include JavaScript in an HTML document?",
+        "answers": [
+            "&lt;javascript&gt;",
+            "&lt;script&gt;",
+            "&lt;js&gt;",
+            "&lt;code&gt;"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the default position of an HTML element in CSS?",
+        "answers": [
+            "static",
+            "relative",
+            "absolute",
+            "fixed"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What does the `onclick` attribute in JavaScript do?",
+        "answers": [
+            "Executes a function when the user clicks an element",
+            "Defines the click area of an element",
+            "Adds a click event to the browser",
+            "Executes JavaScript when the page loads"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which symbol is used for comments in JavaScript?",
+        "answers": [
+            "// for single-line comments",
+            "/* for multi-line comments */",
+            "# for comments",
+            "Both A and B"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "How do you link an external CSS file to an HTML document?",
+        "answers": [
+            "&lt;style href='style.css'&gt;",
+            "&lt;link rel='stylesheet' href='style.css'&gt;",
+            "&lt;css src='style.css'&gt;",
+            "&lt;file link='style.css'&gt;"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which CSS property is used to change the background color?",
+        "answers": [
+            "color",
+            "bg-color",
+            "background-color",
+            "background"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "How do you create a function in JavaScript?",
+        "answers": [
+            "function: myFunction()",
+            "function myFunction()",
+            "def myFunction()",
+            "create myFunction()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the correct HTML tag for the largest heading?",
+        "answers": [
+            "&lt;head&gt;",
+            "&lt;h1&gt;",
+            "&lt;header&gt;",
+            "&lt;h6&gt;"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which JavaScript keyword is used to declare a variable?",
+        "answers": [
+            "var",
+            "let",
+            "const",
+            "All of the above"
+        ],
+        "correct": 3
+    }
+]
