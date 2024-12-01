@@ -15,12 +15,13 @@ body {
 #loginpage {
     padding: 30px;
     text-align: center;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .page {
     width: 500px;
     height: 300px;
-    background-color: rgb(161, 161, 155);
+    /* background-color: rgb(161, 161, 155); */
     color: rgb(5, 5, 5);
     margin-top: 30%;
     align-content: center;
@@ -39,21 +40,30 @@ body {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 /* Terms*/
 
 #termspage {
     padding: 10px;
+    animation: fadeInSide 1s ease-in-out;
 }
 
 .terms {
     width: 800px;
-    height: 350px;
-    background-color: rgb(161, 161, 155);
-    color: rgb(5, 5, 5);
-    margin-top: 20%;
-    align-content: center;
-    border: 2px solid white;
+    height: 350px;   
+    align-content: center;   
     border-radius: 30px;
     box-shadow: rgba(9, 17, 20, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -73,6 +83,18 @@ body {
 
 .list li {
     margin-bottom: 10px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInSide {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /* Quiz Page */

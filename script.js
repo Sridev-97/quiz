@@ -4,7 +4,7 @@ let selectedquestion = [];
 let currentindex = 0;
 let mark = 0;
 let userselectedanswer = [];
-let questionTimer = 60; // 30 seconds per question
+let questionTimer = 15; //15 seconds per question
 let questionTimeLeft = questionTimer; // Time left for the current question
 let timeInterval; // To store the timer interval
 
@@ -21,6 +21,10 @@ const Loadpage = (path) => {
         .catch((err) => {
             console.log(err);
         });
+
+        if (timeInterval) {
+            clearInterval(timeInterval);
+        }
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -46,8 +50,7 @@ const initialize = (path) => {
         document.getElementById("start").addEventListener("click", () => {
             Loadpage("quiz.html");
         });
-    } else if (path == "quiz.html") {
-        //showtimer(); // Start the timer
+    } else if (path == "quiz.html") {       
         showquestion(); // Display the first question
 
         document.getElementById("next").addEventListener('click', () => {
@@ -139,6 +142,8 @@ const showquestion = () => {
     resetQuestionTimer();
 };
 
+// Answer Page
+
 const showanswer = () => {
     document.getElementById("answercontainer").innerHTML = selectedquestion.map((question, qno) =>
         `
@@ -159,6 +164,8 @@ const showanswer = () => {
     ).join("");
 };
 
+
+// Timer
 const resetQuestionTimer = () => {
     // Clear previous timer if it exists
     if (timeInterval) {
