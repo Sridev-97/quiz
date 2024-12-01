@@ -63,6 +63,7 @@ body {
 .terms {
     width: 800px;
     height: 350px;   
+    margin-top: 20%;
     align-content: center;   
     border-radius: 30px;
     box-shadow: rgba(9, 17, 20, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
